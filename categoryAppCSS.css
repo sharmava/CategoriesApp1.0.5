@@ -1,0 +1,247 @@
+.layout {
+    clear: both;
+    display: inline-block;
+    min-height: 20em;
+    width: 34em;
+}
+
+.gameDiv{  
+  display: inline-block;	
+  word-wrap:break-word;
+  width: 100%;
+  min-height: 12em;
+  background-color: #FFF5EE
+}
+
+.gameProgressBarLayout{	
+ display: inline-block;	
+  float: left;
+  width: 100%;
+  height: 1em;
+}
+
+.gameProgressBarPlay{
+  background-color:#F0FFFF; 
+}
+
+.gameControlPanel{
+  display: inline-block; 	
+  height: 4em;
+  background-color: #A4A4A4;
+  width: 100%;
+}
+
+.progressBarBlock{
+	display: inline-block;
+	background-color: #D1D0CE;
+	border-color: #B6B6B4;
+	height: .9em;
+}
+
+.progressBarBlockCorrect{
+	background-color: #89C35C;
+}
+
+.progressBarBlockInCorrect{
+	background-color: #E55451;
+}
+
+.itemLayout {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+ }
+
+ .readyMessage{
+  margin-left: 1em;
+  display: inline-block;
+  word-wrap:break-word;
+  min-height: 10em;
+  min-width: 40em;
+
+ }
+
+
+.restartImage{
+	vertical-align: middle;
+   height: 2em;
+   width: 2em;
+}
+
+.restartImage:hover{
+	background-color: grey
+}
+
+.categoryLayout {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.categoryDiv{
+   width: 80%;
+   background-color: grey;
+   margin-top: .5em;
+   float: left;
+  clear:both;
+  word-wrap:break-word;
+}
+
+.categoryDiv:hover{
+   background-color:#d29105;
+}
+
+.itemLable{
+   height: 1em;
+   background-color: #CEF6F5;
+   display: block-inline;
+}
+
+lable{
+  margin: .1em;
+  display: block-inline;
+}
+
+
+.controlPanelElement{
+ margin-right: 1%;
+ margin-left:1%;
+ float: left;
+}
+
+.startButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fed897;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fed897;
+	box-shadow:inset 0px 1px 0px 0px #fed897;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6b33d), color-stop(1, #d29105) );
+	background:-moz-linear-gradient( center top, #f6b33d 5%, #d29105 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6b33d', endColorstr='#d29105');
+	background-color:#f6b33d;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #eda933;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cd8a15;
+	margin-left: 40%;
+	margin-top: 2%;
+}
+.startButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d29105), color-stop(1, #f6b33d) );
+	background:-moz-linear-gradient( center top, #d29105 5%, #f6b33d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d29105', endColorstr='#f6b33d');
+	background-color:#d29105;
+}.startButton:active {
+	position:relative;
+	top:1px;
+}
+
+.restartDiv{
+   float: left;
+   margin-left: .1em;
+   margin-top: 1em;
+   display: inline-block;
+}
+
+select{
+  font-size: 1em;
+  font-weight: bold; 
+}
+
+.levelDiv{
+   float: left;
+   margin-left: 1em;
+   margin-right: 1em;
+   margin-top: 1em;
+   display: inline-block;
+}
+
+.gameSoundDiv{
+	width:6m;
+	margin-top: 1em;
+	margin-left: 1em;
+	display: inline-block; 	
+ }
+
+.gameSoundDiv:hover{
+   background-color: grey;
+}
+
+.timerDiv{
+	width:6m;
+	margin-top: 1em;
+	margin-left: 1em;
+	display: inline-block;
+}
+.timerFieldDiv{
+	display: inline-block;
+}
+
+.scoreDiv{
+	height:2em;
+	width:7em;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+	display: inline-block;
+}
+.scoreDiv:hover{
+   background-color: grey;
+}
+
+.scoreLable{
+	color: Black;
+    display: inline;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.scoreField{
+border-style: inset;
+font-size: 1em;
+font-weight: bold;
+width: 3em;
+background-color: white;
+align-self:center;
+}
+
+.pauseState{
+	background-color: #B7CEEC;
+	font-weight: bold;
+}
+
+.pauseStateP{
+	margin-top: 10%;
+	margin-left: 25%;
+}
+
+.timerField{
+border-style: inset;
+font-size: 1em;
+width: 3.5em;
+background-color: white;
+font-weight: bold;
+align-self:center;
+}
